@@ -1,0 +1,41 @@
+//framework
+@import "../bootstrap-5.3.3/scss/bootstrap.scss";
+//fuente
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+.boton_alerta {
+    padding: 75px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+.div-alert {
+    padding-top: 180px;
+    display: flex;
+    justify-content: center;
+ 
+    align-items: center;
+}
+.boton_estilo {
+    padding: 75px;
+    margin: 10px;
+    text-align: center;
+    justify-items: center;
+    background-color: white;
+    color: black;
+    margin-top: 180px;
+    margin-left: 180px;
+}
+.cuadrado {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: 2px solid;
+    border-color: black;
+}
